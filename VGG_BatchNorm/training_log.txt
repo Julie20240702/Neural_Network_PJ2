@@ -1,0 +1,25 @@
+Using device: cpu
+Training config: 2000 samples, 10 epochs, 5 LRs
+Estimated steps per run: 150
+Batch shape: torch.Size([128, 3, 32, 32]), labels: [8, 7, 8, 8, 4]
+
+==================================================
+Training VGG_A (without BatchNorm)
+==================================================
+  lr=1.0e-03 | 160 steps | 353.2s | final_loss=1.5968
+  lr=2.0e-03 | 160 steps | 195.5s | final_loss=2.0633
+  lr=1.0e-04 | 160 steps | 202.7s | final_loss=1.8827
+  lr=5.0e-03 | 160 steps | 196.1s | final_loss=2.2993
+  lr=5.0e-04 | 160 steps | 192.4s | final_loss=1.6041
+
+==================================================
+Training VGG_A_BatchNorm
+==================================================
+  lr=1.0e-03 | 160 steps | 203.5s | final_loss=1.3112
+  lr=2.0e-03 | 160 steps | 207.3s | final_loss=1.8306
+  lr=1.0e-04 | 160 steps | 205.9s | final_loss=0.0028
+  lr=5.0e-03 | 160 steps | 205.9s | final_loss=2.0432
+  lr=5.0e-04 | 160 steps | 202.8s | final_loss=0.2398
+Saved: /Users/yanshiyi/Downloads/PJ2_2026/codes/VGG_BatchNorm/reports/figures/loss_landscape.png
+
+Done! Results saved to reports/figures/

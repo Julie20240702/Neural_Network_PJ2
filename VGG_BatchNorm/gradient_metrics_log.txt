@@ -1,0 +1,20 @@
+Using device: cpu
+Loading data...
+
+Training with gradient tracking: 4 LRs x 2 models
+  VGG_A lr=1.0e-03... 182s
+  VGG_BN lr=1.0e-03... 219s
+  VGG_A lr=2.0e-03... 549s
+  VGG_BN lr=2.0e-03... 1960s
+  VGG_A lr=1.0e-04... 372s
+  VGG_BN lr=1.0e-04... 2196s
+  VGG_A lr=5.0e-03... 1202s
+  VGG_BN lr=5.0e-03... 1215s
+Saved: gradient_predictiveness.png
+
+Computing β-smoothness...
+  VGG_A... 29s
+  VGG_BN... 33s
+Saved: beta_smoothness.png
+
+All gradient metrics complete!

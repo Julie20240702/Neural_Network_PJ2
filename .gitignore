@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+data/cifar-10-*
+*.pth
+.DS_Store
